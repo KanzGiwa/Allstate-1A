@@ -30,11 +30,11 @@
 
 **Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+* [Access the Google Drive with the dataset and Google Colab file](https://drive.google.com/drive/folders/1zt21JxIOPzPp8aMHYheBfVRQCZf8LwZb?usp=sharing)
+* Download the dataset
+* Open up Google Colab file
+* Make sure the path in read_csv() matches the file location of your claims.csv file in your Drive (should be df.read_csv("/content/drive/MyDrive/Allstate 1A/claims_data.csv"))
+* Run the notebook
 
 ---
 
