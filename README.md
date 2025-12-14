@@ -10,8 +10,7 @@
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | Kanz Giwa        | @kanzgiwa     | Data exploration, visualization, overall project coordination, dataset documentation, feature engineering, model evaluation, model training and optimization, hyperparameter tuning|
-|                  |               |                                                                          |
-|                  |               |                                                                          |
+|Samah Keshiro |@samahkeshiro |Model development, hyperparameter tuning, model training and optimization, overall project coordination||                  |               |                                                                          |
 |                  |               |                                                                          |
 |                  |               |                                                                          |
 
@@ -66,11 +65,10 @@
 
 ## 🧠 **Model Development**
 
-**You might consider describing the following (as applicable):**
-
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+* LightGBM, Random Forest, XGBoost, and Lasso Regression models
+* Target variable column identified, Feature Engineering (categorical feature encoding, interaction feature engineering, numerical feature scaling)
+* Hyperparameter tuning with Randomized Grid Search with cross validation to find best parameters and early stopping
+* Data split into 70% training set, 15% validation set, 15% test set. Mean absolute error and root mean absolute error used to evaluate performance and compare against baseline (1978 MAE, 2916 RMSE)
 
 
 ---
