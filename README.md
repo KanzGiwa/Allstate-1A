@@ -77,15 +77,14 @@
 
 **You might consider describing the following (as applicable):**
 
-* Performance metrics (e.g., Accuracy, F1 score, RMSE)
-* How your model performed
-* Insights from evaluating model fairness
+* Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) as evaluation metrics for easy interpreability
+* XGBoost model resulted in 1182 MAE and 1979 RMSE, over 40% improvement compared to the baseline model
+* Implementing hyperparamter tuning improved XGBoost MAE by 6.52% (MAE of 1262 before tuning)
 
-**Potential visualizations to include:**
+**Visualization of Actual Loss vs Loss Predicted by our Model**
 
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+<img width="868" height="547" alt="download" src="https://github.com/user-attachments/assets/582b530c-cadb-4235-b22b-f5ffff022721" />
 
----
 
 ## 🚀 **Next Steps**
 
@@ -94,24 +93,11 @@
 * What are some of the limitations of your model?
 * What would you do differently with more time/resources?
 * What additional datasets or techniques would you explore?
+* Apply some fairness evaluation techniques to categorical features (equalized odds, disparate impact analysis, etc.) to ensure loss predictons aren't unfairly distributed across different segments of the data
 
----
-
-## 📝 **License**
-
-If applicable, indicate how your project can be used by others by specifying and linking to an open source license type (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type.
-
-**Example:**
-This project is licensed under the MIT License.
-
----
-
-## 📄 **References** (Optional but encouraged)
-
-Cite relevant papers, articles, or resources that supported your project.
 
 ---
 
 ## 🙏 **Acknowledgements** (Optional but encouraged)
 
-Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+Thank you to our Challenge Advisors Nancy Zhang and Krystal Smuda, our Coach Eric Bayless, and the Break Through Tech Team!
