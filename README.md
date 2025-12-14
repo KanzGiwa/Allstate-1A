@@ -33,7 +33,7 @@
 * [Access the Google Drive with the dataset and Google Colab file](https://drive.google.com/drive/folders/1zt21JxIOPzPp8aMHYheBfVRQCZf8LwZb?usp=sharing)
 * Download the dataset
 * Open up Google Colab file
-* Make sure the path in read_csv() matches the file location of your claims.csv file in your Drive (should be df.read_csv("/content/drive/MyDrive/Allstate 1A/claims_data.csv"))
+* Make sure the path in read_csv() matches the file location of your claims.csv file in your Drive (**should be df.read_csv("/content/drive/MyDrive/Allstate 1A/claims_data.csv")**)
 * Run the notebook
 
 ---
