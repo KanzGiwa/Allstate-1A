@@ -1,4 +1,4 @@
-# Your AI Studio Challenge Project Title Here
+# Allstate-1A
 
 
 ---
@@ -9,7 +9,7 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Kanz Giwa        | @kanzgiwa     | Data exploration, visualization, overall project coordination, dataset documentation, feature engineering, model evaluation, model training and optimization, hyperparameter tuning            |
+| Kanz Giwa        | @kanzgiwa     | Data exploration, visualization, overall project coordination, dataset documentation, feature engineering, model evaluation, model training and optimization, hyperparameter tuning|
 |                  |               |                                                                          |
 |                  |               |                                                                          |
 |                  |               |                                                                          |
@@ -19,12 +19,11 @@
 
 ## 🎯 **Project Highlights**
 
-**Example:**
 
-- Developed a machine learning model using `[model type/technique]` to address `[challenge project task]`.
-- Achieved `[key metric or result]`, demonstrating `[value or impact]` for `[host company]`.
-- Generated actionable insights to inform business decisions at `[host company or stakeholders]`.
-- Implemented `[specific methodology]` to address industry constraints or expectations.
+- Developed a machine learning model using `XGBoost` to address `better risk assesment, enhance pricing strategies, and streamline claims processing`.
+- Reduced `Mean Absolute Error by 40% `, demonstrating `less prediction errors` for `Allstate`.
+- Enabled faster, fairer, and data-driven claims assessment for `Allstate`.
+- Implemented `feature engineering and scaling` to improve accuracy.
 
 ---
 
