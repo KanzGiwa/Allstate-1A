@@ -48,16 +48,16 @@
 
 ## 📊 **Data Exploration**
 
-**You might consider describing the following (as applicable):**
 
-* The dataset(s) used: origin, format, size, type of data
-* Data exploration and preprocessing approaches
-* Insights from your Exploratory Data Analysis (EDA)
-* Challenges and assumptions when working with the dataset(s)
+* The dataset(s) used: categorical and continuous variables
+* We used a seaborn confusion matrix for continous features and loss, applied one-hot encoding, and feature engineering
+* A large number of categorical features have a small number of unique values and one-hot encoding resulted in a significant increase in the nuumber of columns in the dataset
+* Challenges we faced were figuring out which columns to keep and drop
 
-**Potential visualizations to include:**
+**Visualizations:**
 
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+<img width="915" height="836" alt="download" src="https://github.com/user-attachments/assets/5ce88edc-30f7-4be1-be12-64e03c81d1f7" />
+<img width="597" height="455" alt="download" src="https://github.com/user-attachments/assets/70b5ced5-c1b3-4c5f-a9b7-cfeed1e5c273" />
 
 ---
 
@@ -73,8 +73,6 @@
 
 ## 📈 **Results & Key Findings**
 
-**You might consider describing the following (as applicable):**
-
 * Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) as evaluation metrics for easy interpreability
 * XGBoost model resulted in 1182 MAE and 1979 RMSE, over 40% improvement compared to the baseline model
 * Implementing hyperparamter tuning improved XGBoost MAE by 6.52% (MAE of 1262 before tuning)
@@ -86,11 +84,9 @@
 
 ## 🚀 **Next Steps**
 
-**You might consider addressing the following (as applicable):**
-
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
+* Further Feature Engineering
+* Optimizing our best performing model (MAE in the hundreds, RMSE in low thousands)
+* Making changes to optimize current models 
 * Apply some fairness evaluation techniques to categorical features (equalized odds, disparate impact analysis, etc.) to ensure loss predictons aren't unfairly distributed across different segments of the data
 
 
