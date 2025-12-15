@@ -49,7 +49,7 @@
 ## 📊 **Data Exploration**
 
 
-* The dataset(s) used: categorical and continuous variables
+* The dataset used: categorical and continuous variables
 * We used a seaborn confusion matrix for continous features and loss, applied one-hot encoding, and feature engineering
 * A large number of categorical features have a small number of unique values and one-hot encoding resulted in a significant increase in the nuumber of columns in the dataset
 * Challenges we faced were figuring out which columns to keep and drop
