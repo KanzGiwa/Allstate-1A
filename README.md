@@ -8,7 +8,7 @@
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | Kanz Giwa        | @kanzgiwa     | Data exploration, visualization, overall project coordination, dataset documentation, feature engineering, model evaluation, model training and optimization, hyperparameter tuning|
-|Samah Keshiro |@samahkeshiro |Model development, hyperparameter tuning, model training and optimization, overall project coordination||                  |               |                                                                          |
+|Samah Keshiro |@samahkeshiro |Model development, hyperparameter tuning, model training and optimization, model evaluation, overall project coordination||                  |               |                                                                          |
 | Samip Lamichhane                |@samipLC               | Dataset documentation, feature engineering, model evaluation, model training and optimization, hyperparameter tuning|                                                                          |
 |                  |               |                                                                          |
 
@@ -39,7 +39,8 @@
 ## 🏗️ **Project Overview**
  
 - Our AI Studio team partnered with Allstate, one of the world’s leading insurance companies, to build a machine learning model that predicts the severity of auto insurance claims.
-- Our goal was to develop a model that accurately estimates potential claim costs
+- Goal: Develop a ML model that accurately estimates potential claim costs using historical claims records
+- Outcome: Improve risk assessment, enhance pricing strategies, and streamline claims processing
 
 
 ---
@@ -48,8 +49,8 @@
 
 
 * The dataset used: categorical and continuous variables
-* We used a seaborn confusion matrix for continous features and loss, applied one-hot encoding, and feature engineering
-* A large number of categorical features have a small number of unique values and one-hot encoding resulted in a significant increase in the nuumber of columns in the dataset
+* We used a seaborn correlation matrix for continous features and loss, applied one-hot encoding, and feature engineering
+* A large number of categorical features have a small number of unique values and one-hot encoding resulted in a significant increase in the number of columns in the dataset
 * Challenges we faced were figuring out which columns to keep and drop
 
 **Visualizations:**
