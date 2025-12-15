@@ -37,12 +37,10 @@
 ---
 
 ## 🏗️ **Project Overview**
-
-**Describe:**
  
 - Our AI Studio team partnered with Allstate, one of the world’s leading insurance companies, to build a machine learning model that predicts the severity of auto insurance claims.
 - Our goal was to develop a model that accurately estimates potential claim costs
-- 
+
 
 ---
 
