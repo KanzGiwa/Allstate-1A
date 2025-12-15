@@ -9,7 +9,7 @@
 |------------------|---------------|--------------------------------------------------------------------------|
 | Kanz Giwa        | @kanzgiwa     | Data exploration, visualization, overall project coordination, dataset documentation, feature engineering, model evaluation, model training and optimization, hyperparameter tuning|
 |Samah Keshiro |@samahkeshiro |Model development, hyperparameter tuning, model training and optimization, overall project coordination||                  |               |                                                                          |
-|                  |               |                                                                          |
+| Samip Lamichhane                |@samipLC               | dataset documentation, feature engineering, model evaluation, model training and optimization, hyperparameter tuning|                                                                          |
 |                  |               |                                                                          |
 
 ---
