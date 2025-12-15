@@ -39,10 +39,10 @@
 ## 🏗️ **Project Overview**
 
 **Describe:**
-
-- How this project is connected to the Break Through Tech AI Program
-- Your AI Studio host company and the project objective and scope
-- The real-world significance of the problem and the potential impact of your work
+ 
+- Our AI Studio team partnered with Allstate, one of the world’s leading insurance companies, to build a machine learning model that predicts the severity of auto insurance claims.
+- Our goal was to develop a model that accurately estimates potential claim costs
+- 
 
 ---
 
